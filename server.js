@@ -19,6 +19,7 @@ import { DatabasePostgres } from "./database-postgres.js";
 const server = fastify();
 const database = new DatabasePostgres();
 // Criar um app no Render - https://render.com/
+// https://www.youtube.com/watch?v=hHM-hr9q4mo -> min 1:19
 
 
 server.post('/videos', async (request, reply) => {
